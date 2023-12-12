@@ -1,0 +1,80 @@
+[
+  {
+    "Name": "Rental",
+    "HasChildren": true,
+    "Children": [
+      {
+        "Name": "Travel & Tourism",
+        "Url": "/rental/travel"
+      },
+      {
+        "Name": "Home & Garden",
+        "Url": "/rental/home"
+      },
+      {
+        "Name": "Sports & Recreation",
+        "Url": "/rental/sports"
+      },
+      {
+        "Name": "Pets & Animals",
+        "Url": "/rental/pets"
+      },
+      {
+        "Name": "Fashion",
+        "Url": "/rental/fashion"
+      }
+    ]
+  },
+  {
+    "Name": "Booking",
+    "HasChildren": true,
+    "Children": [
+      {
+        "Name": "Health & Wellness",
+        "Url": "/booking/health"
+      },
+      {
+        "Name": "Beauty & Spa",
+        "Url": "/booking/beauty"
+      },
+      {
+        "Name": "Events & Entertainment",
+        "Url": "/booking/events"
+      },
+      {
+        "Name": "Activities & Experiences",
+        "Url": "/booking/activities"
+      },
+      {
+        "Name": "Home Services",
+        "Url": "/booking/home"
+      }
+    ]
+  },
+  {
+    "Name": "Order",
+    "HasChildren": true,
+    "Children": [
+      {
+        "Name": "Food & Beverage",
+        "Url": "/order/food"
+      },
+      {
+        "Name": "Shopping & Retail",
+        "Url": "/order/shopping"
+      },
+      {
+        "Name": "Grocery & Convenience",
+        "Url": "/order/grocery"
+      },
+      {
+        "Name": "Gifts & Flowers",
+        "Url": "/order/gifts"
+      },
+      {
+        "Name": "Transportation",
+        "Url": "/order/transportation"
+      }
+    ]
+  }
+]

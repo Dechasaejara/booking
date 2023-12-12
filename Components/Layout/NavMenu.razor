@@ -1,0 +1,60 @@
+﻿@using System.Collections.Generic
+@using System.Text.Json
+
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">booking</a>
+    </div>
+</div>
+
+<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
+
+<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+    <div class="sidebar">
+        @foreach (var category in Categories)
+        {  
+        <h3 class="bg-danger text-white p-2">@category.Name</h3>
+        <div class="nav-item px-3">
+            @foreach (var child in category.Children)
+            {
+            <NavLink class="nav-link" href="@child.Url">
+                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> @child.Name
+            </NavLink>
+            }
+            
+        </div>         
+        }
+    </div>
+    </nav>
+</div>
+
+@code {
+    private List<Category> Categories { get; set; }
+
+    protected override void OnInitialized()
+    {
+        var jsonFilePath = Path.Combine("Data", "categories.json");
+        var jsonData = File.ReadAllText(jsonFilePath);
+
+        Categories = JsonSerializer.Deserialize<List<Category>>(jsonData);
+    }
+
+    public class Category
+    {
+        public string Name { get; set; }
+        public bool HasChildren { get; set; }
+        public List<Child> Children { get; set; }
+    }
+
+    public class Child
+    {
+        public string Name { get; set; }
+        public string Url { get; set; }
+    }
+}

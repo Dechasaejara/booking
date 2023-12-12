@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/d/Desktop/Mastery/blazor/blazorUnited/booking/obj/Debug/net8.0/scopedcss/projectbundle/booking.bundle.scp.css",
+      "PackagePath": "staticwebassets/booking.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/d/Desktop/Mastery/blazor/blazorUnited/booking/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/d/Desktop/Mastery/blazor/blazorUnited/booking/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/d/Desktop/Mastery/blazor/blazorUnited/booking/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/d/Desktop/Mastery/blazor/blazorUnited/booking/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.booking.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.booking.props",
+      "PackagePath": "build\\booking.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.booking.props",
+      "PackagePath": "buildMultiTargeting\\booking.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.booking.props",
+      "PackagePath": "buildTransitive\\booking.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
