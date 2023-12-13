@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "TVdyJiM/fRlNv2ENA6JOJYzZKOZDqD5V6Z1q3ZI3PklXTbmFXQ43dWrBM6DhwseO/wQj3f/kyLrujbqnjVWCcw==",
+  "dgSpecHash": "9BkwemalXR1HwgWy7nLG0j/u/uyEKe4SrflDN3H3QI8Po3EVkmjgbsfEfN2MIKSiQeewyblQvR3fznq5ynRgvQ==",
   "success": true,
-  "projectFilePath": "/Users/d/Desktop/Mastery/blazor/blazorUnited/booking/booking.csproj",
+  "projectFilePath": "C:\\Users\\red\\Desktop\\myprojects\\booking\\booking.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.1.23:1212/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }

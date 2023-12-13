@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9Nc6eYZaTPVAEsEDHkTv9zZBBPgXK1uf3C6V9b5smtg=",
+  "Hash": "2FP0JZ5rv/0I2w+rYI2ucZAYT/uNMcgM+wo62S469mo=",
   "Source": "booking",
   "BasePath": "_content/booking",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "booking/wwwroot",
+      "Name": "booking\\wwwroot",
       "Source": "booking",
-      "ContentRoot": "/Users/d/Desktop/Mastery/blazor/blazorUnited/booking/wwwroot/",
+      "ContentRoot": "C:\\Users\\red\\Desktop\\myprojects\\booking\\wwwroot\\",
       "BasePath": "_content/booking",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/d/Desktop/Mastery/blazor/blazorUnited/booking/obj/Debug/net8.0/scopedcss/bundle/booking.styles.css",
+      "Identity": "C:\\Users\\red\\Desktop\\myprojects\\booking\\obj\\Debug\\net8.0\\scopedcss\\bundle\\booking.styles.css",
       "SourceId": "booking",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/d/Desktop/Mastery/blazor/blazorUnited/booking/obj/Debug/net8.0/scopedcss/bundle/",
+      "ContentRoot": "C:\\Users\\red\\Desktop\\myprojects\\booking\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/booking",
       "RelativePath": "booking.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/d/Desktop/Mastery/blazor/blazorUnited/booking/obj/Debug/net8.0/scopedcss/bundle/booking.styles.css"
+      "OriginalItemSpec": "C:\\Users\\red\\Desktop\\myprojects\\booking\\obj\\Debug\\net8.0\\scopedcss\\bundle\\booking.styles.css"
     },
     {
-      "Identity": "/Users/d/Desktop/Mastery/blazor/blazorUnited/booking/obj/Debug/net8.0/scopedcss/projectbundle/booking.bundle.scp.css",
+      "Identity": "C:\\Users\\red\\Desktop\\myprojects\\booking\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\booking.bundle.scp.css",
       "SourceId": "booking",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/d/Desktop/Mastery/blazor/blazorUnited/booking/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "C:\\Users\\red\\Desktop\\myprojects\\booking\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/booking",
       "RelativePath": "booking.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/d/Desktop/Mastery/blazor/blazorUnited/booking/obj/Debug/net8.0/scopedcss/projectbundle/booking.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\red\\Desktop\\myprojects\\booking\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\booking.bundle.scp.css"
     },
     {
-      "Identity": "/Users/d/Desktop/Mastery/blazor/blazorUnited/booking/wwwroot/app.css",
+      "Identity": "C:\\Users\\red\\Desktop\\myprojects\\booking\\wwwroot\\app.css",
       "SourceId": "booking",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/d/Desktop/Mastery/blazor/blazorUnited/booking/wwwroot/",
+      "ContentRoot": "C:\\Users\\red\\Desktop\\myprojects\\booking\\wwwroot\\",
       "BasePath": "_content/booking",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/app.css"
+      "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "/Users/d/Desktop/Mastery/blazor/blazorUnited/booking/wwwroot/bootstrap/bootstrap.min.css",
+      "Identity": "C:\\Users\\red\\Desktop\\myprojects\\booking\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "booking",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/d/Desktop/Mastery/blazor/blazorUnited/booking/wwwroot/",
+      "ContentRoot": "C:\\Users\\red\\Desktop\\myprojects\\booking\\wwwroot\\",
       "BasePath": "_content/booking",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "/Users/d/Desktop/Mastery/blazor/blazorUnited/booking/wwwroot/bootstrap/bootstrap.min.css.map",
+      "Identity": "C:\\Users\\red\\Desktop\\myprojects\\booking\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "booking",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/d/Desktop/Mastery/blazor/blazorUnited/booking/wwwroot/",
+      "ContentRoot": "C:\\Users\\red\\Desktop\\myprojects\\booking\\wwwroot\\",
       "BasePath": "_content/booking",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -109,13 +109,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/d/Desktop/Mastery/blazor/blazorUnited/booking/wwwroot/favicon.png",
+      "Identity": "C:\\Users\\red\\Desktop\\myprojects\\booking\\wwwroot\\favicon.png",
       "SourceId": "booking",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/d/Desktop/Mastery/blazor/blazorUnited/booking/wwwroot/",
+      "ContentRoot": "C:\\Users\\red\\Desktop\\myprojects\\booking\\wwwroot\\",
       "BasePath": "_content/booking",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -128,7 +128,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.png"
+      "OriginalItemSpec": "wwwroot\\favicon.png"
     }
   ]
 }

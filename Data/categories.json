@@ -1,53 +1,35 @@
 [
   {
-    "Name": "Rental",
-    "HasChildren": true,
-    "Children": [
-      {
-        "Name": "Travel & Tourism",
-        "Url": "/rental/travel"
-      },
-      {
-        "Name": "Home & Garden",
-        "Url": "/rental/home"
-      },
-      {
-        "Name": "Sports & Recreation",
-        "Url": "/rental/sports"
-      },
-      {
-        "Name": "Pets & Animals",
-        "Url": "/rental/pets"
-      },
-      {
-        "Name": "Fashion",
-        "Url": "/rental/fashion"
-      }
-    ]
-  },
-  {
     "Name": "Booking",
     "HasChildren": true,
     "Children": [
       {
-        "Name": "Health & Wellness",
-        "Url": "/booking/health"
+        "Name": "Accommodation",
+        "Url": "/booking/accommodation"
       },
       {
-        "Name": "Beauty & Spa",
+        "Name": "Wellness",
+        "Url": "/booking/wellness"
+      },
+      {
+        "Name": "Beauty",
         "Url": "/booking/beauty"
       },
       {
-        "Name": "Events & Entertainment",
+        "Name": "Events ",
         "Url": "/booking/events"
       },
       {
-        "Name": "Activities & Experiences",
-        "Url": "/booking/activities"
+        "Name": "Entertainment",
+        "Url": "/booking/entertainment"
       },
       {
-        "Name": "Home Services",
-        "Url": "/booking/home"
+        "Name": "Professional",
+        "Url": "/booking/professional"
+      },
+      {
+        "Name": "Wedding Services",
+        "Url": "/booking/wedding"
       }
     ]
   },
@@ -56,24 +38,38 @@
     "HasChildren": true,
     "Children": [
       {
-        "Name": "Food & Beverage",
+        "Name": "Food",
         "Url": "/order/food"
       },
       {
-        "Name": "Shopping & Retail",
-        "Url": "/order/shopping"
+        "Name": "Electronics",
+        "Url": "/order/electronics"
       },
       {
-        "Name": "Grocery & Convenience",
-        "Url": "/order/grocery"
+        "Name": "Clothing",
+        "Url": "/order/clothing"
       },
       {
-        "Name": "Gifts & Flowers",
+        "Name": "Gifts",
         "Url": "/order/gifts"
-      },
+      }
+    ]
+  },
+  {
+    "Name": "Rental",
+    "HasChildren": true,
+    "Children": [
       {
         "Name": "Transportation",
-        "Url": "/order/transportation"
+        "Url": "/rental/transportation"
+      },
+      {
+        "Name": "Equipment",
+        "Url": "/rental/equipment"
+      },
+      {
+        "Name": "Fashion",
+        "Url": "/rental/fashion"
       }
     ]
   }
